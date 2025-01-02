@@ -3,23 +3,23 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const services = [
   {
-    title: "iOS Development",
-    description: "Native iOS apps with stunning UIs and smooth performance",
+    title: "Desenvolvimento iOS",
+    description: "Apps nativos para iOS com interfaces incríveis e alto desempenho",
     icon: <Smartphone className="h-12 w-12 text-primary" />,
   },
   {
-    title: "Android Development",
-    description: "Robust Android applications that users love",
+    title: "Desenvolvimento Android",
+    description: "Aplicativos Android robustos que os usuários adoram",
     icon: <Code className="h-12 w-12 text-primary" />,
   },
   {
-    title: "Fast Delivery",
-    description: "Quick turnaround without compromising quality",
+    title: "Entrega Rápida",
+    description: "Entrega rápida sem comprometer a qualidade",
     icon: <Gauge className="h-12 w-12 text-primary" />,
   },
   {
-    title: "Secure Solutions",
-    description: "Built-in security and data protection",
+    title: "Soluções Seguras",
+    description: "Segurança e proteção de dados integradas",
     icon: <Shield className="h-12 w-12 text-primary" />,
   },
 ];
@@ -29,8 +29,8 @@ export const Services = () => {
     <section className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Our Services</h2>
-          <p className="text-muted-foreground">Comprehensive mobile development solutions</p>
+          <h2 className="text-3xl font-bold mb-4">Nossos Serviços</h2>
+          <p className="text-muted-foreground">Soluções completas para desenvolvimento mobile</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (
