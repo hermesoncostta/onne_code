@@ -2,21 +2,21 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
+    name: "Sarah Vitória",
     role: "CEO da TechStart",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop",
-    content: "A AppCraft transformou nossa visão em um aplicativo móvel impressionante. A atenção aos detalhes e expertise em experiência do usuário é incomparável.",
+    content: "A Onne Code transformou nossa visão em um aplicativo móvel impressionante. A atenção aos detalhes e expertise em experiência do usuário é incomparável.",
     rating: 5
   },
   {
-    name: "Michael Chen",
+    name: "Douglas Duarte ",
     role: "Fundador da HealthTech",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop",
-    content: "Trabalhar com a AppCraft foi um divisor de águas para nossa plataforma de saúde. Eles entregaram além das nossas expectativas.",
+    content: "Trabalhar com a Onne Code foi um divisor de águas para nossa plataforma de saúde. Eles entregaram além das nossas expectativas.",
     rating: 5
   },
   {
-    name: "Emma Davis",
+    name: "Emanuelle Dias",
     role: "Gerente de Produto",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop",
     content: "A expertise técnica da equipe e o compromisso com a qualidade tornaram nossa jornada de desenvolvimento de aplicativo tranquila e bem-sucedida.",

@@ -3,7 +3,7 @@ import { MessageCircle } from "lucide-react";
 
 export const WhatsAppButton = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/your-number", "_blank");
+    window.open("https://wa.me/5598986118891", "_blank");
   };
 
   return (
@@ -12,7 +12,7 @@ export const WhatsAppButton = () => {
       className="fixed bottom-6 right-6 rounded-full w-16 h-16 shadow-lg hover:shadow-xl transition-shadow"
       size="icon"
     >
-      <MessageCircle className="h-6 w-6" />
+      <MessageCircle className="h-8 w-8" />
     </Button>
   );
 };

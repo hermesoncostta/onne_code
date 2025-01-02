@@ -2,6 +2,9 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
 export const Hero = () => {
+  const handleWhatsAppClick = () => {
+    window.open("https://wa.me/5598986118891", "_blank");
+  };
   return (
     <section className="min-h-[90vh] flex items-center justify-center px-4 py-20 mt-16">
       <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
@@ -16,18 +19,16 @@ export const Hero = () => {
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 items-start slide-up">
-            <Button size="lg" className="group">
+            <Button onClick={handleWhatsAppClick} size="lg" className="group">
               Inicie Seu Projeto
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Button>
-            <Button size="lg" variant="outline">
-              Ver Nosso Trabalho
-            </Button>
+            
           </div>
         </div>
         <div className="relative hidden md:block">
           <img
-            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+            src="https://images.unsplash.com/photo-1608452964553-9b4d97b2752f"
             alt="Desenvolvimento de Aplicativos Móveis"
             className="rounded-lg shadow-2xl"
           />
